@@ -1,13 +1,13 @@
 package com.example.persona.entities.audit;
 
 import com.example.persona.config.CustomRevisionListener;
-import jakarta.persistence.Entity;
+import jakarta.persistence.*;
+
 import lombok.Data;
 import org.hibernate.envers.RevisionEntity;
 import org.hibernate.envers.RevisionNumber;
 import org.hibernate.envers.RevisionTimestamp;
 
-import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -25,7 +25,7 @@ public class Revision implements Serializable {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator="revision_seq")
     @SequenceGenerator(
             name="revision_seq",
-            sequenceName="rbac.seq_revision_id"
+            sequenceName="seq_revision_id"
     )
     @RevisionNumber
     private int id;

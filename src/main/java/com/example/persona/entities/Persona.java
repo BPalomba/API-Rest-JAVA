@@ -1,6 +1,7 @@
 package com.example.persona.entities;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -20,6 +21,7 @@ import java.io.Serializable;
 @Audited
 public class Persona implements Serializable {
 
+    @Id
     private long id;
     private String nomber;
     private String apellido;
