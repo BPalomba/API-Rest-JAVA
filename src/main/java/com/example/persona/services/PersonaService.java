@@ -2,8 +2,8 @@ package com.example.persona.services;
 
 import com.example.persona.entities.Persona;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
-import java.awt.print.Pageable;
 import java.util.List;
 
 public interface PersonaService extends BaseService<Persona, Long>{
