@@ -42,6 +42,6 @@ API REST con Spring Boot | 16 | Probando la paginación con Postman
 
 API REST con Spring Boot | 17 | Patrón DTO
 
+<a href ="https://www.youtube.com/playlist?list=PLRFOqDrY-6nvhgKJ2Db1h8aPJm3zaX6eO 
+">Lista de reproduccion </a>
 
-
-https://www.youtube.com/playlist?list=PLRFOqDrY-6nvhgKJ2Db1h8aPJm3zaX6eO 
